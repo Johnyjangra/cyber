@@ -543,7 +543,7 @@ button:not(:disabled) {
 }
 .timeline_container::before {
   content: "";
-  height: 212%;
+  height: 100%;
   width: 2px;
   border: 2px dashed;
   position: absolute;
@@ -556,7 +556,7 @@ button:not(:disabled) {
 .left_line::before {
   content: url(../src/assets/images/svg/leftline.svg);
   position: absolute;
-  left: -140px;
+  left: -146px;
   top: 20px;
 }
 .befor_img {
